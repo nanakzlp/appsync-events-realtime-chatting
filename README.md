@@ -27,8 +27,10 @@ Local Setup
 To run the application locally:
 Install dependencies:
 npm install
+
 Build the project:
 npm run build
+
 Start the development server:
 npm run dev
 
@@ -39,11 +41,15 @@ To deploy the application to AWS Amplify:
 
 Install dependencies and build:
 npm install
+
 npm run build
+
 Navigate to the distribution directory:
 cd dist
+
 Create a deployment package:
 zip -r dist.zip *
+
 Use the generated dist.zip file to deploy through the AWS Amplify Console.
 
 
