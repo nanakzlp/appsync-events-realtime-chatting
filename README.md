@@ -22,9 +22,8 @@ Before running the application, you need to update the AppSync configuration in 
 2. Locate the AppSync configuration section
 3. Replace the existing endpoint with your AWS AppSync API endpoint
 
-Local Setup
+## Local Setup
 
-To run the application locally:
 Install dependencies:
 npm install
 
@@ -35,8 +34,7 @@ Start the development server:
 npm run dev
 
     
-Deployment
-Amplify Deployment
+## Amplify Deployment
 To deploy the application to AWS Amplify:
 
 Install dependencies and build:
@@ -53,10 +51,10 @@ zip -r dist.zip *
 Use the generated dist.zip file to deploy through the AWS Amplify Console.
 
 
-Features
+## Features
 Real-time message updates
 WebSocket-based communication
 AWS AppSync Events subscription integration
 
-Contributing
+## Contributing
 Feel free to submit issues and enhancement requests!
